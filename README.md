@@ -135,7 +135,8 @@ Keyboard is divided into 2 part i.e.
 ### Right keyboard contains following keys:
 *To select Right keyboard, move yours Eye ball(see) on `RIGHT SIDE`.*
 
-![Keyboard3](Images/Keyboard3.png)
+![keyboard3](https://user-images.githubusercontent.com/79536149/172660925-de7a6585-2269-4f26-93a7-51c99210c371.png)
+
 >
 ## Explaination of project:
 ---
