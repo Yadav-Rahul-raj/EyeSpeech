@@ -125,9 +125,7 @@ Keyboard is divided into 2 part i.e.
 1. Left
 2. Right
 
-
 ![Keyboard1](Images/Keyboard1.png)
-
 
 ### Left keyboard contains following keys:
 *To select Left keyboard, move yours Eye ball(see) on `LEFT SIDE`.*
@@ -138,7 +136,6 @@ Keyboard is divided into 2 part i.e.
 *To select Right keyboard, move yours Eye ball(see) on `RIGHT SIDE`.*
 
 ![Keyboard3](Images/Keyboard3.png)
-
 >
 ## Explaination of project:
 ---
