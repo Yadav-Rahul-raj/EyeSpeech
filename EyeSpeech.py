@@ -16,12 +16,44 @@ import pyglet
 import time
 from gtts import gTTS
 
+# for CSI camera
+def gstreamer_pipeline(
+	capture_width=500,
+	capture_height=500,
+	display_width=500,
+	display_height=500,
+	framerate=30,
+	flip_method=0,
+):
+	return (
+		"nvarguscamerasrc ! "
+		"video/x-raw(memory:NVMM), "
+		"width=(int)%d, height=(int)%d, "
+		"format=(string)NV12, framerate=(fraction)%d/1 ! "
+		"nvvidconv flip-method=%d ! "
+		"video/x-raw, width=(int)%d, height=(int)%d, format=(string)BGRx ! "
+		"videoconvert ! "
+		"video/x-raw, format=(string)BGR ! appsink"
+	      % (
+			capture_width,
+			capture_height,
+			framerate,
+			flip_method,
+			display_width,
+			display_height,
+	  	)
+  )
+
+
 # Load sounds
 sound = pyglet.media.load("sound.wav", streaming=False)
 left_sound = pyglet.media.load("left.wav", streaming=False)
 right_sound = pyglet.media.load("right.wav", streaming=False)
 
-cap = cv2.VideoCapture(0)
+
+#cap = cv2.VideoCapture(gstreamer_pipeline(flip_method=0), cv2.CAP_GSTREAMER) #for CSI Camera
+#cap = cv2.VideoCapture(1) #for external camera
+cap = cv2.VideoCapture(0) #for internal camera
 board = np.zeros((500, 600), np.uint8)
 board[:] = 255
 
