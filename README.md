@@ -4,7 +4,7 @@
 ## Tutorial Video:
 ---
 
-`LINK` : 
+`LINK` : https://youtu.be/y6GKnqCyevE
 >
 ## Installation of library:
 ---
@@ -20,7 +20,7 @@
 ### 1. dlib
 ***To install on jetson nano kit, follow below given link of youtube***
 
-`Link :`  
+`Link :`  https://youtu.be/yOdVnQuhfeI
 
 ### 2. opencv
 **To install on jetson nano kit, follow below given code**
@@ -96,6 +96,8 @@ To use your phone camera as webcam, follow the following steps as per given in t
 
 `Link`: 
 
+https://www.geeksforgeeks.org/connect-your-android-phone-camera-to-opencv-python/
+
 ### 3. External Camera
 
 To use external USB camera, just change the parameter in the VideCapture() function:
@@ -113,7 +115,7 @@ Example:
 For more information follow below Link:
 
 `Link` : 
-
+https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html
 >
 
 ## Keyboard settings:
@@ -123,17 +125,17 @@ Keyboard is divided into 2 part i.e.
 1. Left
 2. Right
 
-
+![Keyboard1](Images/Keyboard1.png)
 
 ### Left keyboard contains following keys:
 *To select Left keyboard, move yours Eye ball(see) on `LEFT SIDE`.*
 
-Picture:
+![Keyboard2](Images/Keyboard2.png)
 
 ### Right keyboard contains following keys:
 *To select Right keyboard, move yours Eye ball(see) on `RIGHT SIDE`.*
 
-Picture:
+![Keyboard3](Images/Keyboard3.png)
 >
 ## Explaination of project:
 ---
