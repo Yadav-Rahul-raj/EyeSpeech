@@ -1,5 +1,10 @@
-Step 1: Download the shape_predictor_68_face_landmarks.dat file
+Step 1: Download essential library first.
 
-Step 2: Run EyeSpeech.py file
+Step 2: Download the shape_predictor_68_face_landmarks.dat file
 
-Step 3: EyeAudio.mp3 and EyeSpeech.txt will be created by running of EyeSpeech.py file
+Step 3: Run EyeSpeech.py file
+
+Step 4: Make sure that you are connected with Internet because for conversion of Text to Audio form, 
+        it required Internet.
+
+Step 5: EyeAudio.mp3 and EyeSpeech.txt will be created by running of EyeSpeech.py file
