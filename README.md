@@ -137,9 +137,7 @@ Keyboard is divided into 2 part i.e.
 ### Right keyboard contains following keys:
 *To select Right keyboard, move yours Eye ball(see) on `RIGHT SIDE`.*
 
-
-![keyboard3](Images/Keyboard3.png)
-
+![Keyboard3](Images/Keyboard3.png)
 
 >
 ## Explaination of project:
