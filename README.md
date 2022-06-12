@@ -168,6 +168,8 @@ Keyboard is divided into 2 part i.e.
 
 - The Best example can be `Dr. Stephen Hawking` whoes whole body is paralyzed except cheek then also with the help of cheek he has written many books.
 
+- Instead of alphabets if we give option like `Water`, `Food`, `Bath` etc then that would be more useful for paralized person to say there basic necessarity.
+
 >
 ## Summary:
 ***
