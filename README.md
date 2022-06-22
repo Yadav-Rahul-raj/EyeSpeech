@@ -4,7 +4,7 @@
 ## Tutorial Video:
 ---
 
-`LINK` : https://youtu.be/y6GKnqCyevE
+`LINK` : https://bit.ly/3zV6Y1K
 >
 ## Installation of library:
 ---
@@ -20,7 +20,7 @@
 ### 1. dlib
 ***To install on jetson nano kit, follow below given link of youtube***
 
-`Link :`  https://youtu.be/yOdVnQuhfeI
+`Link :` https://bit.ly/3bkAnIr
 
 ### 2. opencv
 **To install on jetson nano kit, follow below given code**
@@ -96,7 +96,7 @@ To use your phone camera as webcam, follow the following steps as per given in t
 
 `Link`: 
 
-https://www.geeksforgeeks.org/connect-your-android-phone-camera-to-opencv-python/
+https://bit.ly/3tT4tJv
 
 ### 3. External Camera
 
